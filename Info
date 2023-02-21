@@ -10,3 +10,10 @@ git branch назва - ств гілку
 git branch -D назва - видалити гілку
 git checkout назва - переключитися на гілку
 git checkout -b назва - зразу ств і перейти на гілку 
+
+
+то всьо локально. шоби забабахати дальше - треба:
+git config --global user.name "імя"
+git config --global user.email "пошта"
+далі зєднуємо git remote add origin https://github.com/K3NXXX/practice.git - кид в консоль
+ git push -u origin main - шоби залити проєкт 
